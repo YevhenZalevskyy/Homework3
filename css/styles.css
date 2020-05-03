@@ -12,7 +12,9 @@ table{
     margin: 30px auto;  
     border: 1px solid #575757 ; 
 }
-
+tr{
+    height: 40px;
+}
 th {
     padding: 7px;
     background:  #2f2f2f;
@@ -46,6 +48,13 @@ table th:last-child {
 }
 i{
     padding-left: 4px;
+    
+    
+}
+
+.fa-fw{
+    display: flex;
+    justify-content: space-around;
 }
 .icon_ellipsis{
     color: #575757;
